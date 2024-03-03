@@ -1,5 +1,17 @@
-h1, h2, h3,h4, p, li {
+h1,
+h2,
+h3,
+h4,
+p,
+li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(16, 152, 173);
 }
 
 h1 {
@@ -17,7 +29,7 @@ h3 {
   font-size: 30px;
 }
 
-h4{
+h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -32,10 +44,52 @@ li {
   font-size: 20px;
 }
 
-footer p {
+/* footer p {
   font-size: 16px;
-}
+} */
 
+/*
 article header p {
   font-style: italic;
+}
+*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#rights {
+  font-size: 18px;
+}
+
+.related-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* body {
+  background-color: orangered;
+} */
+
+.first-li {
+  font-weight: bold;
 }
